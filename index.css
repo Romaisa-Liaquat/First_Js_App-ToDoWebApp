@@ -1,0 +1,134 @@
+#bg{
+    background-image: url("./astro-astronomy-background-956999.jpg");
+    width: 100%;
+    
+}
+.clr{
+    font-family: 'Dancing Script', cursive;
+    color: #c1c1c1;
+}
+#container{
+    width: 350px;
+    height: 800px;
+    margin: 0 auto;
+    text-align: center;
+    overflow-y: auto;
+    color: #c1c1c1;
+    border-radius: 10px;
+}
+#container h1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    
+}
+#container ul{
+    margin-top: 50px;
+    padding-left: 0px;
+}
+#container ul li{
+    list-style: none;
+    border: 2px solid #c1c1c1;
+    width: 80%;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    height: 40px;
+    margin: 5px auto;
+    text-align: left;
+}
+#container ul li .lbl{
+    margin: 0 auto;
+    vertical-align: middle;
+    height: 100%;
+    line-height: 40px;
+    font-size: 18px;
+    font-family: 'Dancing Script', cursive;
+}
+#container ul li .check{
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    -webkit-appearance: none;
+    border: 2px solid #bbc5dd;
+    position: relative;
+    outline:0;
+}
+#container ul li .check:checked:after{
+    content: '\2714';
+    font-size: 20px;
+    position: absolute;
+    top: 0px;
+    left: 7px;
+    color: #c1c1c1;
+}
+#container ul li input[type="checkbox"]:checked + label{
+ text-decoration: line-through;
+ color:cyan;
+}
+#container .controls{
+    width: 60%;
+    margin: auto;
+}
+#container .controls #inputs{
+    width: 100%;
+    height: 30px;
+    font-size: 20px;
+    padding-left: 5px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    border: 2px solid #b5c5dd;
+    border-radius: 10px;     
+}
+#container .controls #input:focus{
+    outline: 0;
+}
+#container .controls button{
+    width: 100%;
+    border: none;
+    height: 70px;
+    margin-top: 2px;
+    cursor: pointer;
+    color: #c1c1c1;
+}
+#container .controls button:focus{
+    outline: 0;
+}
+#container .controls button:hover{
+    transform: scale(1.05);
+}
+#add{
+    background-color: turquoise;
+    border-radius: 10px; 
+    color: rgba(102, 16, 102, 0.333);
+    border: 1px solid rgba(102, 16, 102, 0.333);
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;  
+
+}
+#delete{
+    background-color: rosybrown;
+    border-radius: 10px;
+    color: #c9d56f;
+    border: 1px solid #c9d56f;
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+
+}
+#container .mycheck{
+    opacity: 1;
+    border-radius: 10px;
+}
+.visual{
+    opacity: 1 !important;
+}
+footer{
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    color: black;
+    font-family:'Dancing Script', cursive;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+}
